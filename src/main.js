@@ -4,8 +4,8 @@ import { Preloader } from "./scenes/preloader.js";
 
 export default new Phaser.Game({
     type: Phaser.AUTO,
-    width: 1600,
-    heught: 900,
+    width: 800,
+    height: 800,
     scene: [Preloader, Game],
     physics: {
         default: 'arcade',
@@ -16,6 +16,7 @@ export default new Phaser.Game({
         },
     },
     scale: {
-        zoom: 2,
+        zoom: 6,
     },
+    
 });
