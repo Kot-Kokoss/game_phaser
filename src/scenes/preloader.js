@@ -105,7 +105,23 @@ export class Preloader extends Phaser.Scene {
             frameWidth: 16,
             frameHeight: 16
         })
-        this.load.image("ui_helth_emprty", "src/img/frames/health_ui.png", {
+        this.load.image("ui_helth_empty", "src/img/frames/health_ui_empty.png", {
+            frameWidth: 80,
+            frameHeight: 16
+        })
+        this.load.image("ui_helth_1_bank", "src/img/frames/health_ui_1_bank.png", {
+            frameWidth: 80,
+            frameHeight: 16
+        })
+        this.load.image("ui_helth_2_bank", "src/img/frames/health_ui_2_bank.png", {
+            frameWidth: 80,
+            frameHeight: 16
+        })
+        this.load.image("ui_helth_3_bank", "src/img/frames/health_ui_3_bank.png", {
+            frameWidth: 80,
+            frameHeight: 16
+        })
+        this.load.image("ui_helth_4_bank", "src/img/frames/health_ui_4_bank.png", {
             frameWidth: 80,
             frameHeight: 16
         })
