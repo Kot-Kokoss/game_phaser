@@ -397,7 +397,7 @@ export class Game extends Phaser.Scene {
     }
     DemonHitPlayer() {
         //hit player
-        if (this.distDemon < 20) {
+        if (this.distDemon < 30) {
             if (this.player.helth > 1) {
                 console.log('hitPLAYER!!');
                 this.hit = this.add.sprite(this.player.x, this.player.y, "hit");
