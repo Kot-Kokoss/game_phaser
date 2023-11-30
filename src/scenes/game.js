@@ -425,7 +425,7 @@ export class Game extends Phaser.Scene {
                 }, this); 
                 }
         }
-    }          
+    }       
     moveEnemyGoblin() {
         
         //follow player
